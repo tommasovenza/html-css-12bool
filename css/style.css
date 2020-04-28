@@ -1,0 +1,12 @@
+[class*="col-"] {
+    background-color: coral;
+    position: relative;
+    border: 1px solid black;
+}
+
+.container span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
