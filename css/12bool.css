@@ -8,12 +8,16 @@
 
 /* creaiamo il debug per controllare che effetti ha il framework */
 
-.debug {
-    height: 300px;
+.debug .container {
     border: 1px solid red;
 }
 
 /* framework 12 colonne contenute in un container clearfixato */
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
 .container::after {
     content: '';
@@ -23,52 +27,44 @@
 
 /* il framework */
 
+[class*="col-"] {
+    float: left;
+    height: 300px;
+}
 .col-1 {
-    width: calc(100%/12 * 1);
-    float: left;    
+    width: calc((100%/12) * 1);
 }
 .col-2 {
-    width: calc(100%/12 * 2);
-    float: left;
+    width: calc((100%/12) * 2);
 }
 .col-3 {
-    width: calc(100%/12 * 3);
-    float: left;
+    width: calc((100%/12) * 3);
 }
 .col-4 {
-    width: calc(100%/12 * 4);
-    float: left;
+    width: calc((100%/12) * 4);
 }
 .col-5 {
-    width: calc(100%/12 * 5);
-    float: left;
+    width: calc((100%/12) * 5);
 }
 .col-6 {
-    width: calc(100%/12 * 6);
-    float: left;
+    width: calc((100%/12) * 6);
 }
 .col-7 {
-    width: calc(100%/12 * 7);
-    float: left;
+    width: calc((100%/12) * 7);
 }
 .col-8 {
-    width: calc(100%/12 * 8);
-    float: left;
+    width: calc((100%/12) * 8);
 }
 .col-9 {
-    width: calc(100%/12 * 9);
-    float: left;
+    width: calc((100%/12) * 9);
 }
 .col-10 {
-    width: calc(100%/12 * 10);
-    float: left;
+    width: calc((100%/12) * 10);
 }
 .col-11 {
-    width: calc(100%/12 * 11);
-    float: left;    
+    width: calc((100%/12) * 11);   
 }
 .col-12 {
-    width: calc(100%/12 * 12);
-    float: left;        
+    width: calc((100%/12) * 12);        
 }
 
