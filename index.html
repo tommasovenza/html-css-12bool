@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>html-css-12bool</title>
 </head>
-<body class="debug">
+
+<body class="">
     <!-- prima riga, 12 colonne da 1 -->
     <div class="container">
         <div class="col-1"> <span>1-col</span> </div>
@@ -27,5 +29,39 @@
     <div class="container">
         <div class="col-12"><span>12-col</span> </div>
     </div>
+    <!-- terza riga -->
+    <div class="container">
+        <!-- colonna da 8 -->
+        <div class="col-8"> <span>col-8</span></div>
+        <!-- colonna da 2 -->
+        <div class="col-2"><span>col-2</span></div>
+        <!-- colonna da 2 -->
+        <div class="col-2"><span>col-2</span></div>
+    </div>
+    <!-- quarta riga -->
+    <div class="container">
+        <div class="col-1"> <span>col-1</span> </div>
+        <div class="col-2"> <span>col-2</span> </div>
+        <div class="col-2"> <span>col-2</span> </div>
+        <div class="col-6"> <span>col-6</span> </div>
+        <div class="col-1"> <span>col-1</span> </div>
+    </div>
+    <!-- quinta riga -->
+    <div class="container">
+        
+            <div class="col-6 padding">
+                <div class="col-2 border"> <span>Nested 2 col</span> </div>
+                <div class="col-2 border"> <span>Nested 2 col</span> </div>
+                <div class="col-8 border"> <span>Nested 8 col</span> </div>
+            </div>
+        
+        
+            <div class="col-6 padding">
+                <div class="col-6 border"> <span>Nested 6 col</span></div>
+                <div class="col-6 border"> <span>Nested 6 col</span></div>
+            </div>
+        
+    </div>
 </body>
+
 </html>
