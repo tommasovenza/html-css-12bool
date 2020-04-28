@@ -18,3 +18,7 @@
 .border {
     border: 1px solid #fff;
 }
+
+#prova > * {
+    height: 288px;
+}
