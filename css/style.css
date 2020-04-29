@@ -11,11 +11,11 @@
     transform: translate(-50%, -50%);
 }
 
-#prova .container {
+#prova .container  {
     padding: 5px;
 }
 
-#prova .container > * {
+#prova .container  > * {
     background-color: orangered;
     border: 1px solid #fff;
     height: 288px;
